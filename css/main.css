@@ -1,0 +1,37 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #63b7af;
+    position: relative;
+}
+
+div#particles-js {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+div#getting-started {
+    display: flex;
+}
+
+div#getting-started div {
+    font-size: 25px;
+    width: 200px;
+    text-align: center;
+    padding: 25px 0;
+    background: #abf0e9;
+    margin-right: 15px;
+	box-shadow: 3px 9px 16px 0px rgba(0, 0, 0, 0.6);
+	border-radius: 0px 50px 10px 50px;
+}
+
+div#getting-started span {
+    font-size: 100px;
+    display: block;
+}
